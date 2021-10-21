@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercice 1 du TD5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <body>
+      <header>
+        <div>Image de votre LoGo</div>
+        <h2>Exercice 1 du TD5</h2>
+      </header>
+
+      <nav>
+        <ul class="menu_deroulant">
+          <li><a href="index.html">Page d'accueil</a></li>
+          <li>
+            <a href="#">Exercices du td2</a>
+            <ul>
+              <li>
+                <a href="td2_page2.html"> td2: exercice 2</a>
+              </li>
+              <li>
+                <a href="td2_page3.html"> td2: exercice 3</a>
+              </li>
+              <li>
+                <a href="td2_page4.html"> td2: exercice 4</a>
+              </li>
+              <li>
+                <a href="td2_page5.html"> td2: exercice 5</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Exercices du td3</a>
+            <ul>
+              <li>
+                <a href="td3_page1.html"> td3: exercice 1</a>
+              </li>
+              <li>
+                <a href="td3_page2.html"> td3: exercice 2</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Exercices du td4</a>
+            <ul>
+              <li>
+                <a href="td4_page1.html"> td4: exercice 1</a>
+              </li>
+              <li>
+                <a href="td4_page2.html"> td4: exercice 2</a>
+              </li>
+              <li>
+                <a href="td4_page3.html"> td4: exercice 3</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Exercices du td5</a>
+            <ul>
+              <li>
+                <a href="td5_page1.html"> td4: exercice 1</a>
+              </li>
+              <li>
+                <a href="td5_page2.html"> td4: exercice 2</a>
+              </li>
+            </ul>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <article>
+        <h1>Formulaire 1 </h1>
+            <form method="post" action="" class="form1">
+       
+        <label for="nom">Nom</label>
+       <input type="text" name="nom" id="nom" value="Entrez le nom" maxlength="30">
+      <br>
+       <label for="prenom">Prénom</label>
+       <input type="text" name="prenom" id="prenom" value="Entrez le prénom" maxlength="30">
+       <br>
+       <label for="pass">Prénom</label>
+       <input type="password" name="pass" id="pass" value="Entrez le mot de passe" maxlength="7">
+       <br>
+       <label for="email">Email</label>
+       <input type="email" name="email" id="email" value="Entrez l'email" maxlength="40">
+       <br>
+       <input type="submit" name="nom"  value="Envoyer">
+       <input type="reset" name="nom"  value="Réinitialiser">
+       
+            </form>
+
+        <h1>Formulaire 2 </h1>
+        
+        <form method="post" action="" class="form1">
+       <h2>Adresse client </h2>
+          <label for="nom">Nom</label>  
+          <input type="text" name="nom" id="nom" value="Entrez le nom" maxlength="30">
+          <br>
+           <label for="prenom">Prénom</label>
+           <input type="text" name="prenom" id="prenom" value="Entrez le prénom" maxlength="30">
+           <br>
+           <label for="adr">Adresse</label>
+           <input type="text" name="adr" id="adr" value="Adresse" maxlength="7">
+           <br>
+           <label for="ville">Ville</label>
+           <input type="text" name="ville" id="ville" value="Ville" maxlength="40">
+           <br>
+           <label for="postal">Code postal</label>
+           <input type="text" name="postal" id="postal" value="Code postal" maxlength="40">
+           <br>
+           <label for="pays">Pays</label>
+           <input type="text" name="pays" id="pays" value="Pays" maxlength="40">
+           
+           <br>
+           <br>
+           <input type="image" id="image" alt="envoyer" src="images/send.png" width="90px" >
+           <br>
+           <h2>champ destiné au transfert de fichier photo</h2>
+           <br>
+           <label for="fichier">Choisir une photo</label>
+           <input type="file" name="fichier" id="fichier" value="Choisir une photo" accept=".png, .jpeg">
+
+                </form>
+        
+      </article>
+
+      <footer>
+        <div>Nom</div>
+        <div>prenom</div>
+        <div>email</div>
+      </footer>
+    </body>
+  </html>
+</html>
